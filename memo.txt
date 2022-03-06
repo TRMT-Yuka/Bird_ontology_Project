@@ -1,0 +1,20 @@
+界	:	動物界 Animalia
+門	:	脊索動物門 Chordata
+亜門	:	脊椎動物亜門 Vertebrata
+綱	:	鳥綱 Aves
+
+
+	Archaeornithes始祖鳥類
+
+	Neognathae現生鳥類
+		Neornithes新顎類
+		Palaeognathae古顎類
+
+
+Sauriurae始祖鳥等を含んだ古い分類，現代では非推奨
+
+Odontornithes歯を持つ鳥類の分類学用語，現代では非推奨
+
+Passerae鳴禽類を含む止まる鳥類の近縁種を分類する用語，現代では非推奨
+
+modern birds禽類??
