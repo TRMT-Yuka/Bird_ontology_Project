@@ -33,9 +33,11 @@ http://www.wikidata.org/entity/Q182761
 ```
 
 ### 取得方法
-## prog1_get_json.ipynb 
-query.tsvの各行に格納されたURLの情報を取得し，jsonファイルに落とし込むプログラム．操作により得られるjsonファイルは中間生成物であるのでデータ容量の事情により既に削除済み．このプロセスにより生成されたデータはprog2_maketsv.ipynbにてさらに加工される．
+## prog1_get_json.ipynb
+query.tsvの各行に格納されたURLの情報を取得し，jsonファイルに落とし込むプログラム．(正確にはsh1_makejson.shの作動)操作により得られるjsonファイルは中間生成物であるのでデータ容量の事情により既に削除済み．
 
+## sh1_makejson.sh
+prog1_get_json.ipynbにより実行されるコマンド群．このプロセスにより生成されたデータはprog2_maketsv.ipynbにてさらに加工される．
 
 ## prog2_maketsv.ipynb
 prog1_get_json.ipynbによりjson形式でダウンロードしてきた各エンティティページのデータを加工する．また，系統樹的な遷移を表すパスを作成してオリジナルデータに付与し，data_extract/ontology.tsvに保存する．
@@ -76,5 +78,38 @@ Unknown/order/family/genus/species
 Unknown/order/family/genus/species/subspecies
 ...(略)....
 ```
-	
 
+## data_external/BirdJPBookDB__data.tsv
+本プロジェクト主催より提供を受けたデータ．日本語を含む音声データタイトルとその他生態情報が以下のようなフォーマットで含まれている．
+```
+audio_id	path	book_id	曲名	全長	分布	季節	環境
+1_01	db/日本野鳥大鑑1/01 アビ.wav	1	01 アビ	63㎝	全国	冬鳥	外洋、内湾
+...(略)....
+```
+
+## BirdResearchDB_label01_32k.tsv
+同じく本プロジェクト主催より提供を受けたデータ．英語の音声データのパス付タイトルと鳥名部分の抜き出し文字列．
+```
+data01/mujisekka_160317_watarase_hirano.0004.wav	mujisekka
+data01/kumagera_110326_tomakomai_namba.0002.wav	kumagera
+...(略)....
+```
+
+## prog4_loading_sound_tsv.ipynb
+上記のdata_external/BirdJPBookDB__data.tsvとBirdResearchDB_label01_32k.tsvを読込み，加工したプログラム．
+行った作業は以下の通り．
+1. 上記の各音声データタイトルtsvについて，ひらがなの読み方データを付与
+2. 上記の各音声データタイトルtsvについて，ローマ字の読み方データを付与
+3. 両者tsvと，Wikidataオントロジを結合し，data_extract/voice_roma_path.tsvおよびdata_extract/voice_kana_path.tsvを生成
+
+## data_extract/voice_roma_path.tsv & data_extract/voice_kana_path.tsv
+以下のカラム名を持つ最終出力データ．romaはBirdResearchDB_label01_32k.tsv，kanaはdata_external/BirdJPBookDB__data.tsv由来．列名は以下の通り．
++  audio_file_path
++  romaji_name
++  id
++  en_name
++  ja_name
++  path
++  ja_path_name
++  en_path_name
++  path_taxon_rank_name
