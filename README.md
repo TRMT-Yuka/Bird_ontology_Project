@@ -32,7 +32,6 @@ http://www.wikidata.org/entity/Q182761
 ...(略)....
 ```
 
-### 取得方法
 ## prog1_get_json.ipynb
 query.tsvの各行に格納されたURLの情報を取得し，jsonファイルに落とし込むプログラム．(正確にはsh1_makejson.shの作動)操作により得られるjsonファイルは中間生成物であるのでデータ容量の事情により既に削除済み．
 
