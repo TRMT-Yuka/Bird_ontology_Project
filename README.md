@@ -1,10 +1,23 @@
 # Bird_ontology_Project
 本リポジトリは，鳥類の音声ファイルを入力，鳥の種類名を出力する学習モデル構築に用いるデータ構築を目的としている．鳥類の系統関係を把握することにより，正しく音声から鳥の名称を判定できなかった結果に対して，その性能を図ることが可能となる．つまり，取り違えて分類した鳥同士が系統樹において近い場合と遠い場合，後者の方が誤判定としては深刻である．
-本リポジトリでは，WikiDataから鳥類のページを取得し，最終的にそれらの系統樹を表すエンティティパスを取得している．
+本リポジトリでは，WikiDataから鳥類のページを取得し，最終的にそれらの系統樹を表すエンティティパスを取得している．以下の各ディレクトリおよびコードの解説は，作成順序に基づく
 
-## data
-医療ドメインのテキスト，タンパク質固有表現の出現箇所，固有表現間の関係性がアノテーションされたデータセット．[外部サイト](http://corpora.informatik.hu-berlin.de/)よりダウンロードできるデータのうち，タンパク質を対象としたxml形式データを格納．ファイル名は以下の5種類．
+##　query.tsv 
+###　取得方法
+[Wikidataクエリサービス](https://query.wikidata.org/)にアクセスし，以下のSQLを実行することで得られるtsvファイルである．
 
+```
+SELECT DISTINCT ?item ?itemLabel WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
+  {
+    SELECT DISTINCT ?item WHERE {
+      ?item p:P171 ?statement0.
+      ?statement0 (ps:P171/(wdt:P171*)) wd:Q5113.
+    }
+  }
+}
+```
+![image](https://user-images.githubusercontent.com/63268766/162663042-41d20cab-d659-4f07-8f11-7ee413327e7e.png)
 
 + amied
 + bioinfer
