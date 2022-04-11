@@ -60,9 +60,9 @@ prog2_maketsv.ipynbにて生成されたtsv．各カラム名は以下の通り�
 
 ## prog3_translation.ipynb
 本コードで行った作業は以下の通り．
-* DeePL翻訳により空白行を補填．（API無料使用可能枠を使い切ったため断念）
-* 親子関係をグラフに格納後，視覚化．（グラフデータが重すぎたため断念）
-* pathの階層名のみを取得し，data_extract/path_category.txtに一覧で出力し，目視で抜漏れ確認．（成功）
+1. DeePL翻訳により空白行を補填．（API無料使用可能枠を使い切ったため断念）
+2. 親子関係をグラフに格納後，視覚化．（グラフデータが重すぎたため断念）
+3. pathの階層名のみを取得し，data_extract/path_category.txtに一覧で出力し，目視で抜漏れ確認．（成功）
 
 ## data_extract/path_category.txt
 上記の通り，prog3_translation.ipynbにより生成された階層名称まで次元を挙げて俯瞰した場合のpath一覧．以下に示すようなフォーマット．
