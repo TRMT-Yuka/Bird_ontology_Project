@@ -4,20 +4,6 @@
 
 ## query.tsv 
 
-### 内容
-以下のような，Wikidataのエンティティページリンクである．これらは，Q5113（Bird）をより上位のtaxonに持つようなエンティティ一覧であり，スズメや燕といった鳥類の名前はもちろん，スズメ目等の鳥類の分類方法に関する記事URLが含まれる．
-
-```
-item
-http://www.wikidata.org/entity/Q132731
-http://www.wikidata.org/entity/Q136317
-http://www.wikidata.org/entity/Q179112
-http://www.wikidata.org/entity/Q182761
-...(略)....
-```
-
-### 取得方法
-
 [Wikidataクエリサービス](https://query.wikidata.org/)にアクセスし，以下のSQLを実行することで得られるtsvファイルである．
 
 ```
@@ -35,6 +21,18 @@ SELECT DISTINCT ?item ?itemLabel WHERE {
 ![image](README_img/wikidata_query_gui.png)
 
 
+query.tsvは，以下のようなWikidataのエンティティページリンクである．これらは，Q5113（Bird）をより上位のtaxonに持つようなエンティティ一覧であり，スズメや燕といった鳥類の名前はもちろん，スズメ目等の鳥類の分類方法に関する記事URLが含まれる．
+
+```
+item
+http://www.wikidata.org/entity/Q132731
+http://www.wikidata.org/entity/Q136317
+http://www.wikidata.org/entity/Q179112
+http://www.wikidata.org/entity/Q182761
+...(略)....
+```
+
+### 取得方法
 ## prog1_get_json.ipynb 
 query.tsvの各行に格納されたURLの情報を取得し，jsonファイルに落とし込むプログラム．操作により得られるjsonファイルは中間生成物であるのでデータ容量の事情により既に削除済み．このプロセスにより生成されたデータはprog2_maketsv.ipynbにてさらに加工される．
 
