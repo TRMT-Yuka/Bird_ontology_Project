@@ -3,6 +3,17 @@
 本リポジトリでは，WikiDataから鳥類のページを取得し，最終的にそれらの系統樹を表すエンティティパスを取得している．以下の各ディレクトリおよびコードの解説は，作成順序に基づく
 
 ##　query.tsv 
+###　内容
+以下のような，Wikidataのエンティティページリンクである．
+これらは，Q5113（Bird）をより上位のtaxonに持つようなエンティティ一覧であり，スズメや燕といった鳥類の名前はもちろん，スズメ目等の鳥類の分類方法に関する記事URLが含まれる．
+```
+item
+http://www.wikidata.org/entity/Q132731
+http://www.wikidata.org/entity/Q136317
+http://www.wikidata.org/entity/Q179112
+http://www.wikidata.org/entity/Q182761
+...(略)....
+```
 ###　取得方法
 [Wikidataクエリサービス](https://query.wikidata.org/)にアクセスし，以下のSQLを実行することで得られるtsvファイルである．
 
@@ -17,13 +28,9 @@ SELECT DISTINCT ?item ?itemLabel WHERE {
   }
 }
 ```
-![image](https://user-images.githubusercontent.com/63268766/162663042-41d20cab-d659-4f07-8f11-7ee413327e7e.png)
-
-+ amied
-+ bioinfer
-+ hprd50
-+ iepa
-+ lll 
+上記SQLは，[ウィキデータクエリビルダー](https://query.wikidata.org/querybuilder/?uselang=ja)において
+図のように入力した場合に得られるものと同じであるが，ウィキデータクエリビルダーでは結果をtsvファイルにしてダウンロードすることができない．
+![image](README_img/wikidata_query_gui.png)
 
 
 ## data_summary 
