@@ -65,7 +65,7 @@ prog2_maketsv.ipynbにて生成されたtsv．各カラム名は以下の通り�
 3. pathの階層名のみを取得し，data_extract/path_category.txtに一覧で出力し，目視で抜漏れ確認．（成功）
 
 ## data_extract/path_category.txt
-上記の通り，prog3_translation.ipynbにより生成された階層名称まで次元を挙げて俯瞰した場合のpath一覧．以下に示すようなフォーマット．
+上記の通り，prog3_translation.ipynbにより生成される，階層の名称まで概念の次元を上げて表記した場合のpath一覧．以下に示すようなフォーマット．
 
 ```
 ...(略)....
