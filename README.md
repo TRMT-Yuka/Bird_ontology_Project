@@ -101,8 +101,20 @@ data01/kumagera_110326_tomakomai_namba.0002.wav	kumagera
 2. 上記の各音声データタイトルtsvについて，ローマ字の読み方データを付与
 3. 両者tsvと，Wikidataオントロジを結合し，data_extract/voice_roma_path.tsvおよびdata_extract/voice_kana_path.tsvを生成
 
-## data_extract/voice_roma_path.tsv & data_extract/voice_kana_path.tsv
-以下のカラム名を持つ最終出力データ．romaはBirdResearchDB_label01_32k.tsv，kanaはdata_external/BirdJPBookDB__data.tsv由来．列名は以下の通り．
+## data_extract/voice_roma_path.tsv
+以下のカラム名を持つ最終出力データ．romaはBirdResearchDB_label01_32k.tsv，列名は以下の通り．
++  audio_file_path
++  romaji_name
++  id
++  en_name
++  ja_name
++  path
++  ja_path_name
++  en_path_name
++  path_taxon_rank_name
+
+## data_extract/data_extract/voice_kana_path.tsv
+以下のカラム名を持つ最終出力データ．kanaはdata_external/BirdJPBookDB__data.tsv由来．列名は以下の通り．
 +  audio_file_path
 +  romaji_name
 +  id
