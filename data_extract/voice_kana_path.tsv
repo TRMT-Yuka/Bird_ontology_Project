@@ -214,8 +214,8 @@ audio_id	audio_file_path	book_id	title	bird_name	id	en_name	ja_name	path	ja_path
 4_07	db/日本野鳥大鑑4/07 イワツバメ.wav	4	07 イワツバメ	イワツバメ	Q728235	Asian House Martin	イワツバメ	Q39861/Q310857/Q728235	ツバメ科/Delichon/イワツバメ	Hirundinidae/Delichon/Asian House Martin	family//species
 4_08	db/日本野鳥大鑑4/08 イワミセキレイ.wav	4	08 イワミセキレイ	イワミセキレイ	Q266107	Forest Wagtail	イワミセキレイ	Q205943/Q10754417/Q266107	セキレイ科/Dendronanthus/イワミセキレイ	Motacillidae/Dendronanthus/Forest Wagtail	family//species
 4_09	db/日本野鳥大鑑4/09 ツメナガセキレイ.wav	4	09 ツメナガセキレイ	ツメナガセキレイ	Q25984	Western Yellow Wagtail	ツメナガセキレイ	Q25341/Q194240/Q764420/Q749521/Q205943/Q230042/Q25984	スズメ目/スズメ亜目/スズメ小目/スズメ上科/セキレイ科/セキレイ/ツメナガセキレイ	Passeriformes/Passeri/Passerida/Passeroidea/Motacillidae/Motacilla/Western Yellow Wagtail	order/suborder/parvorder/superfamily/family/genus/species
-4_10	db/日本野鳥大鑑4/10 キセキレイ.wav	4	10 キセキレイ	キセキレイ	Q201316	Grey Wagtail	キセキレイ	Q25341/Q194240/Q764420/Q749521/Q205943/Q230042/Q201316	スズメ目/スズメ亜目/スズメ小目/スズメ上科/セキレイ科/セキレイ/キセキレイ	Passeriformes/Passeri/Passerida/Passeroidea/Motacillidae/Motacilla/Grey Wagtail	order/suborder/parvorder/superfamily/family/genus/species
-4_11	db/日本野鳥大鑑4/11 ハクセキレイ.wav	4	11 ハクセキレイ	ハクセキレイ	Q2897097	Motacilla alba lugens	ハクセキレイ	Q25399/Q2897097	タイリクハクセキレイ/ハクセキレイ	White Wagtail/Motacilla alba lugens	species/subspecies
+4_10	db/日本野鳥大鑑4/10 キセキレイ.wav	4	10 キセキレイ	キセキレイ							
+4_11	db/日本野鳥大鑑4/11 ハクセキレイ.wav	4	11 ハクセキレイ	ハクセキレイ	Q2897097	Motacilla alba lugens	ハクセキレイ	Q25399/Q2897097	Q25399/ハクセキレイ	Motacilla alba lugens	Unknown/subspecies
 4_12	db/日本野鳥大鑑4/12 ホオジロハクセキレイ.wav	4	12 ホオジロハクセキレイ	ホオジロハクセキレイ							
 4_13	db/日本野鳥大鑑4/13 セグロセキレイ.wav	4	13 セグロセキレイ	セグロセキレイ	Q1071547	Japanese Wagtail	セグロセキレイ	Q25341/Q194240/Q764420/Q749521/Q205943/Q230042/Q1071547	スズメ目/スズメ亜目/スズメ小目/スズメ上科/セキレイ科/セキレイ/セグロセキレイ	Passeriformes/Passeri/Passerida/Passeroidea/Motacillidae/Motacilla/Japanese Wagtail	order/suborder/parvorder/superfamily/family/genus/species
 4_14	db/日本野鳥大鑑4/14 ビンズイ.wav	4	14 ビンズイ	ビンズイ	Q726873	Olive-backed Pipit	ビンズイ	Q205943/Q193807/Q726873	セキレイ科/ピピット/ビンズイ	Motacillidae/Anthus/Olive-backed Pipit	family/genus/species
@@ -233,52 +233,52 @@ audio_id	audio_file_path	book_id	title	bird_name	id	en_name	ja_name	path	ja_path
 4_26	db/日本野鳥大鑑4/26 シマアカモズ.wav	4	26 シマアカモズ	シマアカモズ							
 4_27	db/日本野鳥大鑑4/27 キレンジャク.wav	4	27 キレンジャク	キレンジャク	Q26135	Bohemian Waxwing	キレンジャク	Q25341/Q11897625/Q208940/Q26135	スズメ目/レンジャク科/レンジャク科/キレンジャク	Passeriformes/Bombycillidae/Bombycilla/Bohemian Waxwing	order/family/genus/species
 4_28	db/日本野鳥大鑑4/28 ヒレンジャク.wav	4	28 ヒレンジャク	ヒレンジャク	Q697413	Japanese Waxwing	ヒレンジャク	Q25341/Q11897625/Q208940/Q697413	スズメ目/レンジャク科/レンジャク科/ヒレンジャク	Passeriformes/Bombycillidae/Bombycilla/Japanese Waxwing	order/family/genus/species
-4_29	db/日本野鳥大鑑4/29 カワガラス.wav	4	29 カワガラス	カワガラス	Q1034960	Brown Dipper	カワガラス	Q192575/Q1034960	カワガラス科/カワガラス	dipper/Brown Dipper	genus/species
+4_29	db/日本野鳥大鑑4/29 カワガラス.wav	4	29 カワガラス	カワガラス	Q1034960	Brown Dipper	カワガラス	Q192575/Q1034960	Q192575/カワガラス	Brown Dipper	Unknown/species
 4_30	db/日本野鳥大鑑4/30 ミソサザイ.wav	4	30 ミソサザイ	ミソサザイ	Q25740	Eurasian Wren	ミソサザイ	Q25341/Q208304/Q3888717/Q25740	スズメ目/ミソサザイ科/Troglodytes/ミソサザイ	Passeriformes/Troglodytidae/Troglodytes/Eurasian Wren	order/family//species
 4_31	db/日本野鳥大鑑4/31 モスケミソサザイ.wav	4	31 モスケミソサザイ	モスケミソサザイ							
 4_32	db/日本野鳥大鑑4/32 イワヒバリ.wav	4	32 イワヒバリ	イワヒバリ	Q208334	Alpine Accentor	イワヒバリ	'/Q20645445/Q14635103/Q326483/Q5856078/Q25341/Q3709179/Q3924795/Q208334'			
 4_33	db/日本野鳥大鑑4/33 カヤクグリ.wav	4	33 カヤクグリ	カヤクグリ	Q524343	Japanese Accentor	カヤクグリ	'/Q20645445/Q14635103/Q326483/Q5856078/Q25341/Q3709179/Q3924795/Q524343'			
-4_34	db/日本野鳥大鑑4/34 コマドリ.wav	4	34 コマドリ	コマドリ	Q27075673	Japanese Robin	コマドリ	Q1193805/Q10784792/Q27075673	Saxicolinae/Larvivora/コマドリ	Saxicolinae/Larvivora/Japanese Robin	//species
-4_35	db/日本野鳥大鑑4/35 タネコマドリ.wav	4	35 タネコマドリ	タネコマドリ	Q27631965	Larvivora akahige tanensis	タネコマドリ	Q1193805/Q10784792/Q27075673/Q27631965	Saxicolinae/Larvivora/コマドリ/タネコマドリ	Saxicolinae/Larvivora/Japanese Robin/Larvivora akahige tanensis	//species/subspecies
-4_36	db/日本野鳥大鑑4/36 アカヒゲ.wav	4	36 アカヒゲ	アカヒゲ	Q27075672	Ryukyu Robin	アカヒゲ	Q1193805/Q10784792/Q27075672	Saxicolinae/Larvivora/アカヒゲ	Saxicolinae/Larvivora/Ryukyu Robin	//species
+4_34	db/日本野鳥大鑑4/34 コマドリ.wav	4	34 コマドリ	コマドリ	Q27075673	Japanese Robin	コマドリ	Q1193805/Q10784792/Q27075673	Q1193805/Larvivora/コマドリ	Larvivora/Japanese Robin	Unknown//species
+4_35	db/日本野鳥大鑑4/35 タネコマドリ.wav	4	35 タネコマドリ	タネコマドリ	Q27631965	Larvivora akahige tanensis	タネコマドリ	Q1193805/Q10784792/Q27075673/Q27631965	Q1193805/Larvivora/コマドリ/タネコマドリ	Larvivora/Japanese Robin/Larvivora akahige tanensis	Unknown//species/subspecies
+4_36	db/日本野鳥大鑑4/36 アカヒゲ.wav	4	36 アカヒゲ	アカヒゲ	Q27075672	Ryukyu Robin	アカヒゲ	Q1193805/Q10784792/Q27075672	Q1193805/Larvivora/アカヒゲ	Larvivora/Ryukyu Robin	Unknown//species
 4_37	db/日本野鳥大鑑4/37 ホントウアカヒゲ.wav	4	37 ホントウアカヒゲ	ホントウアカヒゲ							
-4_38	db/日本野鳥大鑑4/38 シマゴマ.wav	4	38 シマゴマ	シマゴマ	Q1192214	Rufous-tailed Robin	シマゴマ	Q1193805/Q10784792/Q1192214	Saxicolinae/Larvivora/シマゴマ	Saxicolinae/Larvivora/Rufous-tailed Robin	//species
-4_39	db/日本野鳥大鑑4/39 ヨーロッパコマドリ.wav	4	39 ヨーロッパコマドリ	ヨーロッパコマドリ	Q25334	European Robin	ヨーロッパコマドリ	Q855800/Q25334	Erithacus/ヨーロッパコマドリ	Erithacus/European Robin	/species
-4_40	db/日本野鳥大鑑4/40 ノゴマ.wav	4	40 ノゴマ	ノゴマ	Q27075678	Siberian Rubythroat	ノゴマ	Q16069825/Q27075678	Calliope/ノゴマ	Calliope/Siberian Rubythroat	/species
+4_38	db/日本野鳥大鑑4/38 シマゴマ.wav	4	38 シマゴマ	シマゴマ	Q1192214	Rufous-tailed Robin	シマゴマ	Q1193805/Q10784792/Q1192214	Q1193805/Larvivora/シマゴマ	Larvivora/Rufous-tailed Robin	Unknown//species
+4_39	db/日本野鳥大鑑4/39 ヨーロッパコマドリ.wav	4	39 ヨーロッパコマドリ	ヨーロッパコマドリ							
+4_40	db/日本野鳥大鑑4/40 ノゴマ.wav	4	40 ノゴマ	ノゴマ	Q27075678	Siberian Rubythroat	ノゴマ	Q16069825/Q27075678	Q16069825/ノゴマ	Siberian Rubythroat	Unknown/species
 4_41	db/日本野鳥大鑑4/41 オガワコマドリ.wav	4	41 オガワコマドリ	オガワコマドリ	Q26578	Bluethroat	オガワコマドリ	Q328982/Q26578	Luscinia/オガワコマドリ	Luscinia/Bluethroat	/species
-4_42	db/日本野鳥大鑑4/42 コルリ.wav	4	42 コルリ	コルリ	Q27075670	Siberian Blue Robin	コルリ	Q1193805/Q10784792/Q27075670	Saxicolinae/Larvivora/コルリ	Saxicolinae/Larvivora/Siberian Blue Robin	//species
-4_43	db/日本野鳥大鑑4/43 ルリビタキ.wav	4	43 ルリビタキ	ルリビタキ	Q129219	Red-flanked Bush Robin	ルリビタキ	Q968266/Q129219	Tarsiger/ルリビタキ	Tarsiger/Red-flanked Bush Robin	/species
-4_44	db/日本野鳥大鑑4/44 ジョウビタキ.wav	4	44 ジョウビタキ	ジョウビタキ	Q616456	Daurian Redstart	ジョウビタキ	Q25341/Q194240/Q764420/Q1179990/Q200989/Q240088/Q616456	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ヒタキ科/ジョウビタキ属/ジョウビタキ	Passeriformes/Passeri/Passerida/Muscicapoidea/Muscicapidae/Phoenicurus/Daurian Redstart	order/suborder/parvorder/superfamily/family/genus/species
-4_45	db/日本野鳥大鑑4/45 シロビタイジョウビタキ.wav	4	45 シロビタイジョウビタキ	シロビタイジョウビタキ	Q26620	Common Redstart	シロビタイジョウビタキ	Q25341/Q194240/Q764420/Q1179990/Q200989/Q240088/Q26620	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ヒタキ科/ジョウビタキ属/シロビタイジョウビタキ	Passeriformes/Passeri/Passerida/Muscicapoidea/Muscicapidae/Phoenicurus/Common Redstart	order/suborder/parvorder/superfamily/family/genus/species
-4_46	db/日本野鳥大鑑4/46 ノビタキ.wav	4	46 ノビタキ	ノビタキ	Q6739527	Stejneger's Stonechat	ノビタキ	Q906092/Q6739527	Saxicola/ノビタキ	Saxicola/Stejneger's Stonechat	/species
-4_47	db/日本野鳥大鑑4/47 ハシグロヒタキ.wav	4	47 ハシグロヒタキ	ハシグロヒタキ	Q26420	Northern Wheatear	ハシグロヒタキ	Q28915/Q26420	Oenanthe/ハシグロヒタキ	Oenanthe/Northern Wheatear	/species
-4_48	db/日本野鳥大鑑4/48 イソヒヨドリ.wav	4	48 イソヒヨドリ	イソヒヨドリ	Q152144	Blue Rock Thrush	イソヒヨドリ	Q1050525/Q152144	Monticola/イソヒヨドリ	Monticola/Blue Rock Thrush	/species
-4_49	db/日本野鳥大鑑4/49 トラツグミ.wav	4	49 トラツグミ	トラツグミ	Q949662	White's Thrush	トラツグミ	Q25341/Q194240/Q764420/Q1179990/Q26050/Q842978/Q949662	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ツグミ科/Zoothera/トラツグミ	Passeriformes/Passeri/Passerida/Muscicapoidea/thrush/Zoothera/White's Thrush	order/suborder/parvorder/superfamily/family//species
-4_50	db/日本野鳥大鑑4/50 オオトラツグミ.wav	4	50 オオトラツグミ	オオトラツグミ	Q3066642	Amami Thrush	オオトラツグミ	Q842978/Q3066642	Zoothera/オオトラツグミ	Zoothera/Amami Thrush	/species
-4_51	db/日本野鳥大鑑4/51 マミジロ.wav	4	51 マミジロ	マミジロ	Q258964	Siberian Thrush	マミジロ	Q26030/Q258964	Geokichla/マミジロ	Geokichla/Siberian Thrush	/species
-4_52	db/日本野鳥大鑑4/52 クロツグミ.wav	4	52 クロツグミ	クロツグミ	Q2720710	Janpanese Thrush	クロツグミ	Q25341/Q194240/Q764420/Q1179990/Q26050/Q115661/Q2720710	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ツグミ科/ツグミ属/クロツグミ	Passeriformes/Passeri/Passerida/Muscicapoidea/thrush/Turdus/Janpanese Thrush	order/suborder/parvorder/superfamily/family/genus/species
-4_53	db/日本野鳥大鑑4/53 クロウタドリ.wav	4	53 クロウタドリ	クロウタドリ	Q25234	Common Blackbird	クロウタドリ	Q25341/Q194240/Q764420/Q1179990/Q26050/Q115661/Q25234	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ツグミ科/ツグミ属/クロウタドリ	Passeriformes/Passeri/Passerida/Muscicapoidea/thrush/Turdus/Common Blackbird	order/suborder/parvorder/superfamily/family/genus/species
-4_54	db/日本野鳥大鑑4/54 アカハラ.wav	4	54 アカハラ	アカハラ	Q1589003	Brown-headed Thrush	アカハラ	Q25341/Q194240/Q764420/Q1179990/Q26050/Q115661/Q1589003	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ツグミ科/ツグミ属/アカハラ	Passeriformes/Passeri/Passerida/Muscicapoidea/thrush/Turdus/Brown-headed Thrush	order/suborder/parvorder/superfamily/family/genus/species
-4_55	db/日本野鳥大鑑4/55 アカコッコ.wav	4	55 アカコッコ	アカコッコ	Q2587219	Izu Thrush	アカコッコ	Q25341/Q194240/Q764420/Q1179990/Q26050/Q115661/Q2587219	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ツグミ科/ツグミ属/アカコッコ	Passeriformes/Passeri/Passerida/Muscicapoidea/thrush/Turdus/Izu Thrush	order/suborder/parvorder/superfamily/family/genus/species
-4_56	db/日本野鳥大鑑4/56 シロハラ.wav	4	56 シロハラ	シロハラ	Q1589031	Pale Thrush	シロハラ	Q25341/Q194240/Q764420/Q1179990/Q26050/Q115661/Q1589031	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ツグミ科/ツグミ属/シロハラ	Passeriformes/Passeri/Passerida/Muscicapoidea/thrush/Turdus/Pale Thrush	order/suborder/parvorder/superfamily/family/genus/species
-4_57	db/日本野鳥大鑑4/57 マミチャジナイ.wav	4	57 マミチャジナイ	マミチャジナイ	Q1591663	Eyebrowed Thrush	マミチャジナイ	Q25341/Q194240/Q764420/Q1179990/Q26050/Q115661/Q1591663	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ツグミ科/ツグミ属/マミチャジナイ	Passeriformes/Passeri/Passerida/Muscicapoidea/thrush/Turdus/Eyebrowed Thrush	order/suborder/parvorder/superfamily/family/genus/species
-4_58	db/日本野鳥大鑑4/58 ツグミ.wav	4	58 ツグミ	ツグミ	Q843175	Naumann’s Thrush	ツグミ	Q25341/Q194240/Q764420/Q1179990/Q26050/Q115661/Q843175	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ツグミ科/ツグミ属/ツグミ	Passeriformes/Passeri/Passerida/Muscicapoidea/thrush/Turdus/Naumann’s Thrush	order/suborder/parvorder/superfamily/family/genus/species
-4_59	db/日本野鳥大鑑4/59 ノハラツグミ.wav	4	59 ノハラツグミ	ノハラツグミ	Q25777	Fieldfare	ノハラツグミ	Q25341/Q194240/Q764420/Q1179990/Q26050/Q115661/Q25777	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ツグミ科/ツグミ属/ノハラツグミ	Passeriformes/Passeri/Passerida/Muscicapoidea/thrush/Turdus/Fieldfare	order/suborder/parvorder/superfamily/family/genus/species
-4_60	db/日本野鳥大鑑4/60 ウタツグミ.wav	4	60 ウタツグミ	ウタツグミ	Q26349	Song Thrush	ウタツグミ	Q25341/Q194240/Q764420/Q1179990/Q26050/Q115661/Q26349	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ツグミ科/ツグミ属/ウタツグミ	Passeriformes/Passeri/Passerida/Muscicapoidea/thrush/Turdus/Song Thrush	order/suborder/parvorder/superfamily/family/genus/species
-4_61	db/日本野鳥大鑑4/61 ヤドリギツグミ.wav	4	61 ヤドリギツグミ	ヤドリギツグミ	Q178942	Mistle Thrush	ヤドリギツグミ	Q25341/Q194240/Q764420/Q1179990/Q26050/Q115661/Q178942	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ツグミ科/ツグミ属/ヤドリギツグミ	Passeriformes/Passeri/Passerida/Muscicapoidea/thrush/Turdus/Mistle Thrush	order/suborder/parvorder/superfamily/family/genus/species
-4_62	db/日本野鳥大鑑4/62 ダルマエナガ.wav	4	62 ダルマエナガ	ダルマエナガ	Q27075558	Vinous-throated Parrotbill	ダルマエナガ	Q25341/Q194240/Q764420/Q2862448/Q187014/Q2333854/Q27075558	スズメ目/スズメ亜目/スズメ小目/ウグイス上科/ダルマエナガ科/Sinosuthora/ダルマエナガ	Passeriformes/Passeri/Passerida/Sylvioidea/Sylviidae/Sinosuthora/Vinous-throated Parrotbill	order/suborder/parvorder/superfamily/family//species
+4_42	db/日本野鳥大鑑4/42 コルリ.wav	4	42 コルリ	コルリ	Q27075670	Siberian Blue Robin	コルリ	Q1193805/Q10784792/Q27075670	Q1193805/Larvivora/コルリ	Larvivora/Siberian Blue Robin	Unknown//species
+4_43	db/日本野鳥大鑑4/43 ルリビタキ.wav	4	43 ルリビタキ	ルリビタキ	Q129219	Red-flanked Bush Robin	ルリビタキ	Q968266/Q129219	Q968266/ルリビタキ	Red-flanked Bush Robin	Unknown/species
+4_44	db/日本野鳥大鑑4/44 ジョウビタキ.wav	4	44 ジョウビタキ	ジョウビタキ							
+4_45	db/日本野鳥大鑑4/45 シロビタイジョウビタキ.wav	4	45 シロビタイジョウビタキ	シロビタイジョウビタキ							
+4_46	db/日本野鳥大鑑4/46 ノビタキ.wav	4	46 ノビタキ	ノビタキ	Q6739527	Stejneger's Stonechat	ノビタキ	Q906092/Q6739527	Q906092/ノビタキ	Stejneger's Stonechat	Unknown/species
+4_47	db/日本野鳥大鑑4/47 ハシグロヒタキ.wav	4	47 ハシグロヒタキ	ハシグロヒタキ	Q26420	Northern Wheatear	ハシグロヒタキ	Q28915/Q26420	Q28915/ハシグロヒタキ	Northern Wheatear	Unknown/species
+4_48	db/日本野鳥大鑑4/48 イソヒヨドリ.wav	4	48 イソヒヨドリ	イソヒヨドリ	Q152144	Blue Rock Thrush	イソヒヨドリ	Q1050525/Q152144	Q1050525/イソヒヨドリ	Blue Rock Thrush	Unknown/species
+4_49	db/日本野鳥大鑑4/49 トラツグミ.wav	4	49 トラツグミ	トラツグミ							
+4_50	db/日本野鳥大鑑4/50 オオトラツグミ.wav	4	50 オオトラツグミ	オオトラツグミ							
+4_51	db/日本野鳥大鑑4/51 マミジロ.wav	4	51 マミジロ	マミジロ							
+4_52	db/日本野鳥大鑑4/52 クロツグミ.wav	4	52 クロツグミ	クロツグミ							
+4_53	db/日本野鳥大鑑4/53 クロウタドリ.wav	4	53 クロウタドリ	クロウタドリ							
+4_54	db/日本野鳥大鑑4/54 アカハラ.wav	4	54 アカハラ	アカハラ							
+4_55	db/日本野鳥大鑑4/55 アカコッコ.wav	4	55 アカコッコ	アカコッコ							
+4_56	db/日本野鳥大鑑4/56 シロハラ.wav	4	56 シロハラ	シロハラ							
+4_57	db/日本野鳥大鑑4/57 マミチャジナイ.wav	4	57 マミチャジナイ	マミチャジナイ							
+4_58	db/日本野鳥大鑑4/58 ツグミ.wav	4	58 ツグミ	ツグミ							
+4_59	db/日本野鳥大鑑4/59 ノハラツグミ.wav	4	59 ノハラツグミ	ノハラツグミ							
+4_60	db/日本野鳥大鑑4/60 ウタツグミ.wav	4	60 ウタツグミ	ウタツグミ							
+4_61	db/日本野鳥大鑑4/61 ヤドリギツグミ.wav	4	61 ヤドリギツグミ	ヤドリギツグミ							
+4_62	db/日本野鳥大鑑4/62 ダルマエナガ.wav	4	62 ダルマエナガ	ダルマエナガ							
 4_63	db/日本野鳥大鑑4/63 ウグイス.wav	4	63 ウグイス	ウグイス	Q27075456	Horornis diphone	ウグイス	Q25341/Q222432/Q9293884/Q27075456	スズメ目/ウグイス科/Horornis/ウグイス	Passeriformes/Cettiidae/Horornis/Horornis diphone	order/family//species
 4_64	db/日本野鳥大鑑4/64 ハシナガウグイス.wav	4	64 ハシナガウグイス	ハシナガウグイス							
 4_65	db/日本野鳥大鑑4/65 リュウキュウウグイス.wav	4	65 リュウキュウウグイス	リュウキュウウグイス							
-4_66	db/日本野鳥大鑑4/66 ヤブサメ.wav	4	66 ヤブサメ	ヤブサメ	Q2669165	Asian Stubtail	ヤブサメ	Q920922/Q2669165	Urosphena/ヤブサメ	Urosphena/Asian Stubtail	/species
-4_67	db/日本野鳥大鑑4/67 オオセッカ.wav	4	67 オオセッカ	オオセッカ	Q1588195	Marsh Grassbird	オオセッカ	Q262063/Q1588195	Megalurus/オオセッカ	Megalurus/Marsh Grassbird	/species
+4_66	db/日本野鳥大鑑4/66 ヤブサメ.wav	4	66 ヤブサメ	ヤブサメ							
+4_67	db/日本野鳥大鑑4/67 オオセッカ.wav	4	67 オオセッカ	オオセッカ	Q21976264	Locustella pryeri	オオセッカ	Q850925/Q21976264	Locustella/オオセッカ	Locustella/Locustella pryeri	/species
 4_68	db/日本野鳥大鑑4/68 エゾセンニュウ.wav	4	68 エゾセンニュウ	エゾセンニュウ	Q1584677	Gray’s Grasshopper Warbler	エゾセンニュウ	Q850925/Q1584677	Locustella/エゾセンニュウ	Locustella/Gray’s Grasshopper Warbler	/species
 4_69	db/日本野鳥大鑑4/69 シマセンニュウ.wav	4	69 シマセンニュウ	シマセンニュウ	Q1585356	Middendorff’s Grasshopper Warbler	シマセンニュウ	Q850925/Q1585356	Locustella/シマセンニュウ	Locustella/Middendorff’s Grasshopper Warbler	/species
 4_70	db/日本野鳥大鑑4/70 ウチヤマセンニュウ.wav	4	70 ウチヤマセンニュウ	ウチヤマセンニュウ	Q62168788	Styan's Grasshopper Warbler	ウチヤマセンニュウ	'/Q20645445/Q14635103/Q326483/Q5856078/Q25341/Q774034/Q51670098/Q62168788'			
 4_71	db/日本野鳥大鑑4/71 マキノセンニュウ.wav	4	71 マキノセンニュウ	マキノセンニュウ	Q837761	Lanceolated Warbler	マキノセンニュウ	Q850925/Q837761	Locustella/マキノセンニュウ	Locustella/Lanceolated Warbler	/species
 4_72	db/日本野鳥大鑑4/72 コヨシキリ.wav	4	72 コヨシキリ	コヨシキリ	Q1200757	Black-browed Reed Warbler	コヨシキリ	'/Q20645445/Q14635103/Q326483/Q5856078/Q25341/Q366974/Q637716/Q1200757'			
 4_73	db/日本野鳥大鑑4/73 オオヨシキリ.wav	4	73 オオヨシキリ	オオヨシキリ	Q73456	Oriental Reed Warbler	オオヨシキリ	'/Q20645445/Q14635103/Q326483/Q5856078/Q25341/Q366974/Q637716/Q73456'			
-5_01	db/日本野鳥大鑑5/01 コノドジロムシクイ.wav	5	01 コノドジロムシクイ	コノドジロムシクイ	Q206089	Lesser Whitethroat	コノドジロムシクイ	Q12814009/Q206089	Curruca/コノドジロムシクイ	Curruca/Lesser Whitethroat	/species
+5_01	db/日本野鳥大鑑5/01 コノドジロムシクイ.wav	5	01 コノドジロムシクイ	コノドジロムシクイ	Q206089	Lesser Whitethroat	コノドジロムシクイ	Q12814009/Q206089	Q12814009/コノドジロムシクイ	Lesser Whitethroat	Unknown/species
 5_02	db/日本野鳥大鑑5/02 キタヤナギムシクイ.wav	5	02 キタヤナギムシクイ	キタヤナギムシクイ	Q27239	Willow Warbler	キタヤナギムシクイ	Q194240/Q1929497/Q214627/Q27239	スズメ亜目/メボソムシクイ科/Phylloscopus/キタヤナギムシクイ	Passeri/Phylloscopidae/Phylloscopus/Willow Warbler	suborder/family//species
 5_03	db/日本野鳥大鑑5/03 チフチャフ.wav	5	03 チフチャフ	チフチャフ	Q185784	Common Chiffchaff	チフチャフ	Q194240/Q1929497/Q214627/Q185784	スズメ亜目/メボソムシクイ科/Phylloscopus/チフチャフ	Passeri/Phylloscopidae/Phylloscopus/Common Chiffchaff	suborder/family//species
 5_04	db/日本野鳥大鑑5/04 モリムシクイ.wav	5	04 モリムシクイ	モリムシクイ	Q27075477	Wood Warbler	モリムシクイ	Q194240/Q1929497/Q214627/Q27075477	スズメ亜目/メボソムシクイ科/Phylloscopus/モリムシクイ	Passeri/Phylloscopidae/Phylloscopus/Wood Warbler	suborder/family//species
@@ -292,26 +292,26 @@ audio_id	audio_file_path	book_id	title	bird_name	id	en_name	ja_name	path	ja_path
 5_12	db/日本野鳥大鑑5/12 イイジマムシクイ.wav	5	12 イイジマムシクイ	イイジマムシクイ	Q1590370	Ijima’s Leaf Warbler	イイジマムシクイ	Q194240/Q1929497/Q214627/Q1590370	スズメ亜目/メボソムシクイ科/Phylloscopus/イイジマムシクイ	Passeri/Phylloscopidae/Phylloscopus/Ijima’s Leaf Warbler	suborder/family//species
 5_13	db/日本野鳥大鑑5/13 キクイタダキ.wav	5	13 キクイタダキ	キクイタダキ	Q26657	Goldcrest	キクイタダキ	Q25341/Q14254250/Q208716/Q26657	スズメ目/Regulidae/キクイタダキ属/キクイタダキ	Passeriformes/Regulidae/Regulus/Goldcrest	order//genus/species
 5_14	db/日本野鳥大鑑5/14 セッカ.wav	5	14 セッカ	セッカ	Q210791	Zitting Cisticola	セッカ	Q550595/Q2719515/Q210791	セッカ科/Cisticola/セッカ	Cisticolidae/Cisticola/Zitting Cisticola	family//species
-5_15	db/日本野鳥大鑑5/15 マダラヒタキ.wav	5	15 マダラヒタキ	マダラヒタキ	Q27442	European Pied Flycatcher	マダラヒタキ	Q388003/Q27442	Ficedula/マダラヒタキ	Ficedula/European Pied Flycatcher	/species
-5_16	db/日本野鳥大鑑5/16 ムギマキ.wav	5	16 ムギマキ	ムギマキ	Q1589248	Mugimaki Flycatcher	ムギマキ	Q388003/Q1589248	Ficedula/ムギマキ	Ficedula/Mugimaki Flycatcher	/species
-5_17	db/日本野鳥大鑑5/17 マミジロキビタキ.wav	5	17 マミジロキビタキ	マミジロキビタキ	Q73574	Yellow-rumped Flycatcher	マミジロキビタキ	Q25341/Q194240/Q764420/Q1179990/Q200989/Q388003/Q73574	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ヒタキ科/Ficedula/マミジロキビタキ	Passeriformes/Passeri/Passerida/Muscicapoidea/Muscicapidae/Ficedula/Yellow-rumped Flycatcher	order/suborder/parvorder/superfamily/family//species
-5_18	db/日本野鳥大鑑5/18 キビタキ.wav	5	18 キビタキ	キビタキ	Q1367236	Narcissus Flycatcher	キビタキ	Q388003/Q1367236	Ficedula/キビタキ	Ficedula/Narcissus Flycatcher	/species
+5_15	db/日本野鳥大鑑5/15 マダラヒタキ.wav	5	15 マダラヒタキ	マダラヒタキ							
+5_16	db/日本野鳥大鑑5/16 ムギマキ.wav	5	16 ムギマキ	ムギマキ							
+5_17	db/日本野鳥大鑑5/17 マミジロキビタキ.wav	5	17 マミジロキビタキ	マミジロキビタキ							
+5_18	db/日本野鳥大鑑5/18 キビタキ.wav	5	18 キビタキ	キビタキ							
 5_19	db/日本野鳥大鑑5/19 リュウキュウキビタキ.wav	5	19 リュウキュウキビタキ	リュウキュウキビタキ							
-5_20	db/日本野鳥大鑑5/20 オオルリ.wav	5	20 オオルリ	オオルリ	Q73477	Blue-and-white Flycatcher	オオルリ	Q15111715/Q73477	Cyanoptila/オオルリ	Cyanoptila/Blue-and-white Flycatcher	/species
-5_21	db/日本野鳥大鑑5/21 サメビタキ.wav	5	21 サメビタキ	サメビタキ	Q73578	Dark-sided Flycatcher	サメビタキ	Q25341/Q194240/Q764420/Q1179990/Q200989/Q1088541/Q73578	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ヒタキ科/Muscicapa/サメビタキ	Passeriformes/Passeri/Passerida/Muscicapoidea/Muscicapidae/Muscicapa/Dark-sided Flycatcher	order/suborder/parvorder/superfamily/family//species
-5_22	db/日本野鳥大鑑5/22 コサメビタキ.wav	5	22 コサメビタキ	コサメビタキ	Q27075642	Asian Brown Flycatcher	コサメビタキ	Q25341/Q194240/Q764420/Q1179990/Q200989/Q1088541/Q27075642	スズメ目/スズメ亜目/スズメ小目/ヒタキ上科/ヒタキ科/Muscicapa/コサメビタキ	Passeriformes/Passeri/Passerida/Muscicapoidea/Muscicapidae/Muscicapa/Asian Brown Flycatcher	order/suborder/parvorder/superfamily/family//species
+5_20	db/日本野鳥大鑑5/20 オオルリ.wav	5	20 オオルリ	オオルリ	Q73477	Blue-and-white Flycatcher	オオルリ	Q15111715/Q73477	Q15111715/オオルリ	Blue-and-white Flycatcher	Unknown/species
+5_21	db/日本野鳥大鑑5/21 サメビタキ.wav	5	21 サメビタキ	サメビタキ							
+5_22	db/日本野鳥大鑑5/22 コサメビタキ.wav	5	22 コサメビタキ	コサメビタキ	Q790623	Muscicapa latirostris	コサメビタキ	Q1088541/Q790623	Q1088541/コサメビタキ	Muscicapa latirostris	Unknown/species
 5_23	db/日本野鳥大鑑5/23 サンコウチョウ.wav	5	23 サンコウチョウ	サンコウチョウ	Q1074163	Japanese Paradise Flycatcher	サンコウチョウ	Q902469/Q1074163	アフリカ三光鳥/サンコウチョウ	paradise flycatcher/Japanese Paradise Flycatcher	genus/species
 5_24	db/日本野鳥大鑑5/24 リュウキュウサンコウチョウ.wav	5	24 リュウキュウサンコウチョウ	リュウキュウサンコウチョウ							
-5_25	db/日本野鳥大鑑5/25 エナガ.wav	5	25 エナガ	エナガ	Q170831	Long-tailed Tit	エナガ	Q310850/Q170831	Aegithalos/エナガ	Aegithalos/Long-tailed Tit	/species
+5_25	db/日本野鳥大鑑5/25 エナガ.wav	5	25 エナガ	エナガ							
 5_26	db/日本野鳥大鑑5/26 シマエナガ.wav	5	26 シマエナガ	シマエナガ							
-5_27	db/日本野鳥大鑑5/27 ツリスガラ.wav	5	27 ツリスガラ	ツリスガラ	Q273067	Eurasian Penduline Tit	ツリスガラ	Q2727124/Q273067	Remiz/ツリスガラ	Remiz/Eurasian Penduline Tit	/species
-5_28	db/日本野鳥大鑑5/28 ハシブトガラ.wav	5	28 ハシブトガラ	ハシブトガラ	Q207838	Marsh Tit	ハシブトガラ	Q25341/Q194240/Q764420/Q2862448/Q168473/Q1075355/Q207838	スズメ目/スズメ亜目/スズメ小目/ウグイス上科/シジュウカラ科/コガラ属/ハシブトガラ	Passeriformes/Passeri/Passerida/Sylvioidea/tit/Poecile/Marsh Tit	order/suborder/parvorder/superfamily/family/genus/species
-5_29	db/日本野鳥大鑑5/29 コガラ.wav	5	29 コガラ	コガラ	Q215211	Willow Tit	コガラ	Q25341/Q194240/Q764420/Q2862448/Q168473/Q1075355/Q215211	スズメ目/スズメ亜目/スズメ小目/ウグイス上科/シジュウカラ科/コガラ属/コガラ	Passeriformes/Passeri/Passerida/Sylvioidea/tit/Poecile/Willow Tit	order/suborder/parvorder/superfamily/family/genus/species
-5_30	db/日本野鳥大鑑5/30 ヒガラ.wav	5	30 ヒガラ	ヒガラ	Q191096	Coal Tit	ヒガラ	Q25341/Q194240/Q764420/Q2862448/Q168473/Q1193281/Q191096	スズメ目/スズメ亜目/スズメ小目/ウグイス上科/シジュウカラ科/ヒガラ属/ヒガラ	Passeriformes/Passeri/Passerida/Sylvioidea/tit/Periparus/Coal Tit	order/suborder/parvorder/superfamily/family/genus/species
-5_31	db/日本野鳥大鑑5/31 ヤマガラ.wav	5	31 ヤマガラ	ヤマガラ	Q27075354	Varied Tit	ヤマガラ	Q3838110/Q27075354	Sittiparus/ヤマガラ	Sittiparus/Varied Tit	/species
+5_27	db/日本野鳥大鑑5/27 ツリスガラ.wav	5	27 ツリスガラ	ツリスガラ	Q273067	Eurasian Penduline Tit	ツリスガラ	Q2727124/Q273067	Q2727124/ツリスガラ	Eurasian Penduline Tit	Unknown/species
+5_28	db/日本野鳥大鑑5/28 ハシブトガラ.wav	5	28 ハシブトガラ	ハシブトガラ							
+5_29	db/日本野鳥大鑑5/29 コガラ.wav	5	29 コガラ	コガラ							
+5_30	db/日本野鳥大鑑5/30 ヒガラ.wav	5	30 ヒガラ	ヒガラ							
+5_31	db/日本野鳥大鑑5/31 ヤマガラ.wav	5	31 ヤマガラ	ヤマガラ	Q27075354	Varied Tit	ヤマガラ	Q3838110/Q27075354	Q3838110/ヤマガラ	Varied Tit	Unknown/species
 5_32	db/日本野鳥大鑑5/32 アマミヤマガラ.wav	5	32 アマミヤマガラ	アマミヤマガラ							
-5_33	db/日本野鳥大鑑5/33 オーストンヤマガラ.wav	5	33 オーストンヤマガラ	オーストンヤマガラ	Q21364393	Sittiparus owstoni	オーストンヤマガラ	Q3838110/Q21364393	Sittiparus/オーストンヤマガラ	Sittiparus/Sittiparus owstoni	/species
-5_34	db/日本野鳥大鑑5/34 シジュウカラ.wav	5	34 シジュウカラ	シジュウカラ	Q177798	Japanese Tit	シジュウカラ	Q719380/Q177798	カラ類/シジュウカラ	Parus/Japanese Tit	genus/species
+5_33	db/日本野鳥大鑑5/33 オーストンヤマガラ.wav	5	33 オーストンヤマガラ	オーストンヤマガラ	Q21364393	Sittiparus owstoni	オーストンヤマガラ	Q3838110/Q21364393	Q3838110/オーストンヤマガラ	Sittiparus owstoni	Unknown/species
+5_34	db/日本野鳥大鑑5/34 シジュウカラ.wav	5	34 シジュウカラ	シジュウカラ							
 5_35	db/日本野鳥大鑑5/35 イシガキシジュウカラ.wav	5	35 イシガキシジュウカラ	イシガキシジュウカラ							
 5_36	db/日本野鳥大鑑5/36 ゴジュウカラ.wav	5	36 ゴジュウカラ	ゴジュウカラ	Q156767	Eurasian nuthatch	ゴジュウカラ	Q25341/Q194240/Q205857/Q858577/Q156767	スズメ目/スズメ亜目/ゴジュウカラ科/ゴジュウカラ科/ゴジュウカラ	Passeriformes/Passeri/Sittidae/Sitta/Eurasian nuthatch	order/suborder/family/genus/species
 5_37	db/日本野鳥大鑑5/37 シロハラゴジュウカラ.wav	5	37 シロハラゴジュウカラ	シロハラゴジュウカラ							
@@ -355,34 +355,34 @@ audio_id	audio_file_path	book_id	title	bird_name	id	en_name	ja_name	path	ja_path
 6_14	db/日本野鳥大鑑6/14 シメ.wav	6	14 シメ	シメ	Q174088	Hawfinch	シメ	Q25341/Q160835/Q667490/Q868144/Q174088	スズメ目/アトリ科/ヒワ亜科/Coccothraustes/シメ	Passeriformes/Fringillidae/Carduelinae/Coccothraustes/Hawfinch	order/family/subfamily//species
 6_15	db/日本野鳥大鑑6/15 コイカル.wav	6	15 コイカル	コイカル	Q594049	Chinese Grosbeak	コイカル	Q25341/Q160835/Q667490/Q133463/Q594049	スズメ目/アトリ科/ヒワ亜科/Eophona/コイカル	Passeriformes/Fringillidae/Carduelinae/Eophona/Chinese Grosbeak	order/family/subfamily//species
 6_16	db/日本野鳥大鑑6/16 イカル.wav	6	16 イカル	イカル	Q1052029	Japenese Grosbeak	イカル	Q25341/Q160835/Q667490/Q133463/Q1052029	スズメ目/アトリ科/ヒワ亜科/Eophona/イカル	Passeriformes/Fringillidae/Carduelinae/Eophona/Japenese Grosbeak	order/family/subfamily//species
-6_17	db/日本野鳥大鑑6/17 イエスズメ.wav	6	17 イエスズメ	イエスズメ	Q14683	House Sparrow	イエスズメ	Q28922/Q28753/Q14683	スズメ科/スズメ属/イエスズメ	Passeridae/Passer/House Sparrow	family/genus/species
-6_18	db/日本野鳥大鑑6/18 スズメ.wav	6	18 スズメ	スズメ	Q25968	Eurasian Tree Sparrow	スズメ	Q28922/Q28753/Q25968	スズメ科/スズメ属/スズメ	Passeridae/Passer/Eurasian Tree Sparrow	family/genus/species
-6_19	db/日本野鳥大鑑6/19 ニュウナイスズメ.wav	6	19 ニュウナイスズメ	ニュウナイスズメ	Q28868046	Russet Sparrow	ニュウナイスズメ	Q28922/Q28753/Q28868046	スズメ科/スズメ属/ニュウナイスズメ	Passeridae/Passer/Russet Sparrow	family/genus/species
+6_17	db/日本野鳥大鑑6/17 イエスズメ.wav	6	17 イエスズメ	イエスズメ							
+6_18	db/日本野鳥大鑑6/18 スズメ.wav	6	18 スズメ	スズメ							
+6_19	db/日本野鳥大鑑6/19 ニュウナイスズメ.wav	6	19 ニュウナイスズメ	ニュウナイスズメ							
 6_20	db/日本野鳥大鑑6/20 シベリアムクドリ.wav	6	20 シベリアムクドリ	シベリアムクドリ	Q890912	Daurian Starling	シベリアムクドリ	Q25341/Q185237/Q3759722/Q890912	スズメ目/ムクドリ科/Agropsar/シベリアムクドリ	Passeriformes/Sturnidae/Agropsar/Daurian Starling	order/family//species
 6_21	db/日本野鳥大鑑6/21 コムクドリ.wav	6	21 コムクドリ	コムクドリ	Q1586190	Chestnut-cheeked Starling	コムクドリ	Q25341/Q185237/Q3759722/Q1586190	スズメ目/ムクドリ科/Agropsar/コムクドリ	Passeriformes/Sturnidae/Agropsar/Chestnut-cheeked Starling	order/family//species
 6_22	db/日本野鳥大鑑6/22 ムクドリ.wav	6	22 ムクドリ	ムクドリ	Q27075595	White-cheeked Starling	ムクドリ	Q25341/Q185237/Q604910/Q27075595	スズメ目/ムクドリ科/ムクドリ属/ムクドリ	Passeriformes/Sturnidae/Spodiopsar/White-cheeked Starling	order/family/genus/species
 6_23	db/日本野鳥大鑑6/23 ホシムクドリ.wav	6	23 ホシムクドリ	ホシムクドリ	Q25469	Common Starling	ホシムクドリ	Q25341/Q185237/Q333842/Q25469	スズメ目/ムクドリ科/Sturnus/ホシムクドリ	Passeriformes/Sturnidae/Sturnus/Common Starling	order/family//species
 6_24	db/日本野鳥大鑑6/24 コウライウグイス.wav	6	24 コウライウグイス	コウライウグイス	Q74092	Black-naped Oriole	コウライウグイス	Q25341/Q202955/Q2090536/Q74092	スズメ目/コウライウグイス科/Oriolus/コウライウグイス	Passeriformes/Oriolidae/Oriolus/Black-naped Oriole	order/family//species
 6_25	db/日本野鳥大鑑6/25 オウチュウ.wav	6	25 オウチュウ	オウチュウ	Q46435	Black Drongo	オウチュウ	'/Q20645445/Q14635103/Q326483/Q5856078/Q25341/Q839526/Q11234198/Q46435'			
-6_26	db/日本野鳥大鑑6/26 カケス.wav	6	26 カケス	カケス	Q25354	Eurasian Jay	カケス	Q311248/Q25354	カケス属/カケス	Garrulus/Eurasian Jay	genus/species
+6_26	db/日本野鳥大鑑6/26 カケス.wav	6	26 カケス	カケス							
 6_27	db/日本野鳥大鑑6/27 ミヤマカケス.wav	6	27 ミヤマカケス	ミヤマカケス							
-6_28	db/日本野鳥大鑑6/28 ルリカケス.wav	6	28 ルリカケス	ルリカケス	Q715227	Lidth's Jay	ルリカケス	Q25341/Q194240/Q869223/Q15998878/Q25565/Q311248/Q715227	スズメ目/スズメ亜目/カラス小目/カラス上科/カラス科/カケス属/ルリカケス	Passeriformes/Passeri/Corvida/Corvoidea/Corvidae/Garrulus/Lidth's Jay	order/suborder/infraorder/superfamily/family/genus/species
-6_29	db/日本野鳥大鑑6/29 オナガ.wav	6	29 オナガ	オナガ	Q503807	Azure-winged Magpie	オナガ	Q25341/Q194240/Q869223/Q15998878/Q25565/Q2717364/Q503807	スズメ目/スズメ亜目/カラス小目/カラス上科/カラス科/オナガ属/オナガ	Passeriformes/Passeri/Corvida/Corvoidea/Corvidae/Cyanopica/Azure-winged Magpie	order/suborder/infraorder/superfamily/family/genus/species
-6_30	db/日本野鳥大鑑6/30 カササギ.wav	6	30 カササギ	カササギ	Q25307	Common Magpie	カササギ	Q271634/Q25307	カササギ属/カササギ	Pica/Common Magpie	genus/species
-6_31	db/日本野鳥大鑑6/31 ホシガラス.wav	6	31 ホシガラス	ホシガラス	Q184820	Spotted Nutcracker	ホシガラス	Q1951909/Q184820	Nucifraga/ホシガラス	Nucifraga/Spotted Nutcracker	/species
-6_32	db/日本野鳥大鑑6/32 コクマルガラス.wav	6	32 コクマルガラス	コクマルガラス	Q27075327	Coloeus dauuricus	コクマルガラス	Q25341/Q194240/Q869223/Q15998878/Q25565/Q1234846/Q27075327	スズメ目/スズメ亜目/カラス小目/カラス上科/カラス科/Coloeus/コクマルガラス	Passeriformes/Passeri/Corvida/Corvoidea/Corvidae/Coloeus/Coloeus dauuricus	order/suborder/infraorder/superfamily/family//species
-6_33	db/日本野鳥大鑑6/33 ニシコクマルガラス.wav	6	33 ニシコクマルガラス	ニシコクマルガラス	Q25345384	Western Jackdaw	ニシコクマルガラス	Q25341/Q194240/Q869223/Q15998878/Q25565/Q1234846/Q25345384	スズメ目/スズメ亜目/カラス小目/カラス上科/カラス科/Coloeus/ニシコクマルガラス	Passeriformes/Passeri/Corvida/Corvoidea/Corvidae/Coloeus/Western Jackdaw	order/suborder/infraorder/superfamily/family//species
-6_34	db/日本野鳥大鑑6/34 イエガラス.wav	6	34 イエガラス	イエガラス	Q507383	House Crow	イエガラス	Q25341/Q194240/Q869223/Q15998878/Q25565/Q43365/Q507383	スズメ目/スズメ亜目/カラス小目/カラス上科/カラス科/カラス属/イエガラス	Passeriformes/Passeri/Corvida/Corvoidea/Corvidae/Corvus/House Crow	order/suborder/infraorder/superfamily/family/genus/species
-6_35	db/日本野鳥大鑑6/35 ミヤマガラス.wav	6	35 ミヤマガラス	ミヤマガラス	Q25386	Rook	ミヤマガラス	Q43365/Q25386	カラス属/ミヤマガラス	Corvus/Rook	genus/species
-6_36	db/日本野鳥大鑑6/36 ハシボソガラス.wav	6	36 ハシボソガラス	ハシボソガラス	Q26198	Carrion Crow	ハシボソガラス	Q43365/Q26198	カラス属/ハシボソガラス	Corvus/Carrion Crow	genus/species
-6_37	db/日本野鳥大鑑6/37 ハシブトガラス.wav	6	37 ハシブトガラス	ハシブトガラス	Q111674	Large-billed Crow	ハシブトガラス	Q43365/Q111674	カラス属/ハシブトガラス	Corvus/Large-billed Crow	genus/species
+6_28	db/日本野鳥大鑑6/28 ルリカケス.wav	6	28 ルリカケス	ルリカケス							
+6_29	db/日本野鳥大鑑6/29 オナガ.wav	6	29 オナガ	オナガ							
+6_30	db/日本野鳥大鑑6/30 カササギ.wav	6	30 カササギ	カササギ							
+6_31	db/日本野鳥大鑑6/31 ホシガラス.wav	6	31 ホシガラス	ホシガラス							
+6_32	db/日本野鳥大鑑6/32 コクマルガラス.wav	6	32 コクマルガラス	コクマルガラス							
+6_33	db/日本野鳥大鑑6/33 ニシコクマルガラス.wav	6	33 ニシコクマルガラス	ニシコクマルガラス							
+6_34	db/日本野鳥大鑑6/34 イエガラス.wav	6	34 イエガラス	イエガラス							
+6_35	db/日本野鳥大鑑6/35 ミヤマガラス.wav	6	35 ミヤマガラス	ミヤマガラス							
+6_36	db/日本野鳥大鑑6/36 ハシボソガラス.wav	6	36 ハシボソガラス	ハシボソガラス							
+6_37	db/日本野鳥大鑑6/37 ハシブトガラス.wav	6	37 ハシブトガラス	ハシブトガラス							
 6_38	db/日本野鳥大鑑6/38 オサハシブトガラス.wav	6	38 オサハシブトガラス	オサハシブトガラス							
-6_39	db/日本野鳥大鑑6/39 ワタリガラス.wav	6	39 ワタリガラス	ワタリガラス	Q25357	Northern Raven	ワタリガラス	Q43365/Q25357	カラス属/ワタリガラス	Corvus/Northern Raven	genus/species
+6_39	db/日本野鳥大鑑6/39 ワタリガラス.wav	6	39 ワタリガラス	ワタリガラス							
 6_40	db/日本野鳥大鑑6/40 インドトキコウ.wav	6	40 インドトキコウ	インドトキコウ	Q631805	Painted Stork	インドトキコウ	Q28507/Q1180273/Q631805	コウノトリ科/Mycteria/インドトキコウ	Ciconiidae/Mycteria/Painted Stork	family//species
 6_41	db/日本野鳥大鑑6/41 アフリカクロトキ.wav	6	41 アフリカクロトキ	アフリカクロトキ	Q208763	African Sacred Ibis	アフリカクロトキ	Q917005/Q208763	Threskiornis/アフリカクロトキ	Threskiornis/African Sacred Ibis	/species
 6_42	db/日本野鳥大鑑6/42 コクチョウ.wav	6	42 コクチョウ	コクチョウ	Q131044	Black Swan	コクチョウ	Q620938/Q29564928/Q131044	ガン亜科/ハクチョウ属/コクチョウ	Anserinae/Cygnus/Black Swan	subfamily/genus/species
-6_43	db/日本野鳥大鑑6/43 ガチョウ.wav	6	43 ガチョウ	ガチョウ	Q255503	domestic goose	ガチョウ	'/Q255503'			
-6_44	db/日本野鳥大鑑6/44 アヒル.wav	6	44 アヒル	アヒル	Q742292	domestic duck	アヒル	'/Q742292'			
+6_43	db/日本野鳥大鑑6/43 ガチョウ.wav	6	43 ガチョウ	ガチョウ							
+6_44	db/日本野鳥大鑑6/44 アヒル.wav	6	44 アヒル	アヒル							
 6_45	db/日本野鳥大鑑6/45 コウライキジ.wav	6	45 コウライキジ	コウライキジ	Q25432	Common Pheasant	コウライキジ	Q974811/Q737426/Q25432	Phasianinae/キジ亜科/コウライキジ	Phasianinae/Phasianus/Common Pheasant	/genus/species
 6_46	db/日本野鳥大鑑6/46 コジュケイ.wav	6	46 コジュケイ	コジュケイ	Q1074291	Chinese Bamboo Partridge	コジュケイ	Q9304816/Q249826/Q1074291	Perdicinae/Bambusicola/コジュケイ	Perdicinae/Bambusicola/Chinese Bamboo Partridge	//species
 6_47	db/日本野鳥大鑑6/47 テッケイ.wav	6	47 テッケイ	テッケイ	Q21470350	Taiwan Bamboo Partridge	テッケイ	Q9304816/Q249826/Q21470350	Perdicinae/Bambusicola/テッケイ	Perdicinae/Bambusicola/Taiwan Bamboo Partridge	//species
@@ -390,32 +390,32 @@ audio_id	audio_file_path	book_id	title	bird_name	id	en_name	ja_name	path	ja_path
 6_49	db/日本野鳥大鑑6/49 ドバト.wav	6	49 ドバト	ドバト							
 6_50	db/日本野鳥大鑑6/50 チョウショウバト.wav	6	50 チョウショウバト	チョウショウバト	Q288485	Zebra Dove	チョウショウバト	Q28078/Q10856/Q135447/Q905420/Q288485	ハト目/ハト科/Columbinae/チョウショウバト属/チョウショウバト	Columbiformes/Columbidae/Columbinae/Geopelia/Zebra Dove	order/family//genus/species
 6_51	db/日本野鳥大鑑6/51 オカメインコ.wav	6	51 オカメインコ	オカメインコ	Q514809	Cockatiel	オカメインコ	Q21215749/Q10801919/Q514809	Nymphicinae/Nymphicus/オカメインコ	Nymphicinae/Nymphicus/Cockatiel	//species
-6_52	db/日本野鳥大鑑6/52 セキセイインコ.wav	6	52 セキセイインコ	セキセイインコ	Q121221	Budgerigar	セキセイインコ	'/Q326483/Q31431/Q13624220/Q8327/Q1074819/Q10792667/Q121221'			
-6_53	db/日本野鳥大鑑6/53 ワカケホンセイインコ.wav	6	53 ワカケホンセイインコ	ワカケホンセイインコ	Q208060	Rose-ringed Parakeet	ワカケホンセイインコ	'/Q326483/Q31431/Q13624220/Q8327/Q1074819/Q518087/Q208060'			
+6_52	db/日本野鳥大鑑6/52 セキセイインコ.wav	6	52 セキセイインコ	セキセイインコ							
+6_53	db/日本野鳥大鑑6/53 ワカケホンセイインコ.wav	6	53 ワカケホンセイインコ	ワカケホンセイインコ							
 6_54	db/日本野鳥大鑑6/54 コンゴウインコ.wav	6	54 コンゴウインコ	コンゴウインコ	Q243761	Scarlet Macaw	コンゴウインコ	Q278968/Q213984/Q243761	Arinae/Ara/コンゴウインコ	Arinae/Ara/Scarlet Macaw	//species
 6_55	db/日本野鳥大鑑6/55 コウラウン.wav	6	55 コウラウン	コウラウン	Q501063	Red-whiskered Bulbul	コウラウン	Q194240/Q188854/Q940685/Q501063	スズメ亜目/ヒヨドリ科/Pycnonotus/コウラウン	Passeri/Pycnonotidae/Pycnonotus/Red-whiskered Bulbul	suborder/family//species
-6_56	db/日本野鳥大鑑6/56 シキチョウ.wav	6	56 シキチョウ	シキチョウ	Q266761	Oriental Magpie Robin	シキチョウ	Q578756/Q266761	magpie-robin/シキチョウ	magpie-robin/Oriental Magpie Robin	/species
+6_56	db/日本野鳥大鑑6/56 シキチョウ.wav	6	56 シキチョウ	シキチョウ							
 6_57	db/日本野鳥大鑑6/57 アカハラシキチョウ.wav	6	57 アカハラシキチョウ	アカハラシキチョウ							
-6_58	db/日本野鳥大鑑6/58 ハクオウチョウ.wav	6	58 ハクオウチョウ	ハクオウチョウ	Q862812	White-crested Laughingthrush	ハクオウチョウ	Q25341/Q194240/Q764420/Q2862448/Q187014/Q644294/Q862812	スズメ目/スズメ亜目/スズメ小目/ウグイス上科/ダルマエナガ科/ガビチョウ亜科/ハクオウチョウ	Passeriformes/Passeri/Passerida/Sylvioidea/Sylviidae/Garrulax/White-crested Laughingthrush	order/suborder/parvorder/superfamily/family/genus/species
-6_59	db/日本野鳥大鑑6/59 ソウシチョウ.wav	6	59 ソウシチョウ	ソウシチョウ	Q589245	Red-billed Leiothrix	ソウシチョウ	Q25341/Q194240/Q764420/Q2862448/Q187014/Q2569205/Q589245	スズメ目/スズメ亜目/スズメ小目/ウグイス上科/ダルマエナガ科/Leiothrix/ソウシチョウ	Passeriformes/Passeri/Passerida/Sylvioidea/Sylviidae/Leiothrix/Red-billed Leiothrix	order/suborder/parvorder/superfamily/family//species
-6_60	db/日本野鳥大鑑6/60 ガビチョウ.wav	6	60 ガビチョウ	ガビチョウ	Q1589896	Hwamei	ガビチョウ	Q644294/Q1589896	ガビチョウ亜科/ガビチョウ	Garrulax/Hwamei	genus/species
-6_61	db/日本野鳥大鑑6/61 カオジロガビチョウ.wav	6	61 カオジロガビチョウ	カオジロガビチョウ	Q3315640	White-browed Laughingthrush	カオジロガビチョウ	Q644294/Q3315640	ガビチョウ亜科/カオジロガビチョウ	Garrulax/White-browed Laughingthrush	genus/species
-6_62	db/日本野鳥大鑑6/62 ショウジョウコウカンチョウ.wav	6	62 ショウジョウコウカンチョウ	ショウジョウコウカンチョウ	Q726389	Northern Cardinal	ショウジョウコウカンチョウ	Q25341/Q194240/Q764420/Q749521/Q223402/Q858444/Q726389	スズメ目/スズメ亜目/スズメ小目/スズメ上科/ショウジョウコウカンチョウ科/Cardinalis/ショウジョウコウカンチョウ	Passeriformes/Passeri/Passerida/Passeroidea/Cardinalidae/Cardinalis/Northern Cardinal	order/suborder/parvorder/superfamily/family//species
+6_58	db/日本野鳥大鑑6/58 ハクオウチョウ.wav	6	58 ハクオウチョウ	ハクオウチョウ							
+6_59	db/日本野鳥大鑑6/59 ソウシチョウ.wav	6	59 ソウシチョウ	ソウシチョウ							
+6_60	db/日本野鳥大鑑6/60 ガビチョウ.wav	6	60 ガビチョウ	ガビチョウ							
+6_61	db/日本野鳥大鑑6/61 カオジロガビチョウ.wav	6	61 カオジロガビチョウ	カオジロガビチョウ							
+6_62	db/日本野鳥大鑑6/62 ショウジョウコウカンチョウ.wav	6	62 ショウジョウコウカンチョウ	ショウジョウコウカンチョウ							
 6_63	db/日本野鳥大鑑6/63 ホウコウチョウ.wav	6	63 ホウコウチョウ	ホウコウチョウ							
 6_64	db/日本野鳥大鑑6/64 カエデチョウ.wav	6	64 カエデチョウ	カエデチョウ	Q720648	Black-rumped Waxbill	カエデチョウ	Q25341/Q194240/Q764420/Q749521/Q214462/Q478281/Q720648	スズメ目/スズメ亜目/スズメ小目/スズメ上科/カエデチョウ科/Estrilda/カエデチョウ	Passeriformes/Passeri/Passerida/Passeroidea/Estrildidae/Estrilda/Black-rumped Waxbill	order/suborder/parvorder/superfamily/family//species
 6_65	db/日本野鳥大鑑6/65 ベニスズメ.wav	6	65 ベニスズメ	ベニスズメ	Q73741	Red Avadavat	ベニスズメ	Q214462/Q135936/Q73741	カエデチョウ科/Amandava/ベニスズメ	Estrildidae/Amandava/Red Avadavat	family//species
-6_66	db/日本野鳥大鑑6/66 キンカチョウ.wav	6	66 キンカチョウ	キンカチョウ	Q331065	Zebra Finch	キンカチョウ	Q25341/Q194240/Q764420/Q749521/Q214462/Q3214630/Q331065	スズメ目/スズメ亜目/スズメ小目/スズメ上科/カエデチョウ科/Taeniopygia/キンカチョウ	Passeriformes/Passeri/Passerida/Passeroidea/Estrildidae/Taeniopygia/Zebra Finch	order/suborder/parvorder/superfamily/family//species
-6_67	db/日本野鳥大鑑6/67 ギンパラ.wav	6	67 ギンパラ	ギンパラ	Q478632	Tricoloured Munia	ギンパラ	Q25341/Q194240/Q764420/Q749521/Q214462/Q852860/Q478632	スズメ目/スズメ亜目/スズメ小目/スズメ上科/カエデチョウ科/キンパラ属/ギンパラ	Passeriformes/Passeri/Passerida/Passeroidea/Estrildidae/Munia/Tricoloured Munia	order/suborder/parvorder/superfamily/family/genus/species
-6_68	db/日本野鳥大鑑6/68 キンパラ.wav	6	68 キンパラ	キンパラ	Q766579	Chestnut Munia	キンパラ	Q25341/Q194240/Q764420/Q749521/Q214462/Q852860/Q766579	スズメ目/スズメ亜目/スズメ小目/スズメ上科/カエデチョウ科/キンパラ属/キンパラ	Passeriformes/Passeri/Passerida/Passeroidea/Estrildidae/Munia/Chestnut Munia	order/suborder/parvorder/superfamily/family/genus/species
-6_69	db/日本野鳥大鑑6/69 コシジロキンパラ.wav	6	69 コシジロキンパラ	コシジロキンパラ	Q574939	White-rumped Munia	コシジロキンパラ	Q25341/Q194240/Q764420/Q749521/Q214462/Q852860/Q574939	スズメ目/スズメ亜目/スズメ小目/スズメ上科/カエデチョウ科/キンパラ属/コシジロキンパラ	Passeriformes/Passeri/Passerida/Passeroidea/Estrildidae/Munia/White-rumped Munia	order/suborder/parvorder/superfamily/family/genus/species
-6_70	db/日本野鳥大鑑6/70 コゲチャキンパラ.wav	6	70 コゲチャキンパラ	コゲチャキンパラ	Q862698	Dusky Munia	コゲチャキンパラ	Q25341/Q194240/Q764420/Q749521/Q214462/Q852860/Q862698	スズメ目/スズメ亜目/スズメ小目/スズメ上科/カエデチョウ科/キンパラ属/コゲチャキンパラ	Passeriformes/Passeri/Passerida/Passeroidea/Estrildidae/Munia/Dusky Munia	order/suborder/parvorder/superfamily/family/genus/species
-6_71	db/日本野鳥大鑑6/71 シマキンパラ.wav	6	71 シマキンパラ	シマキンパラ	Q36197	Scaly-breasted Munia	シマキンパラ	Q25341/Q194240/Q764420/Q749521/Q214462/Q852860/Q36197	スズメ目/スズメ亜目/スズメ小目/スズメ上科/カエデチョウ科/キンパラ属/シマキンパラ	Passeriformes/Passeri/Passerida/Passeroidea/Estrildidae/Munia/Scaly-breasted Munia	order/suborder/parvorder/superfamily/family/genus/species
+6_66	db/日本野鳥大鑑6/66 キンカチョウ.wav	6	66 キンカチョウ	キンカチョウ							
+6_67	db/日本野鳥大鑑6/67 ギンパラ.wav	6	67 ギンパラ	ギンパラ							
+6_68	db/日本野鳥大鑑6/68 キンパラ.wav	6	68 キンパラ	キンパラ							
+6_69	db/日本野鳥大鑑6/69 コシジロキンパラ.wav	6	69 コシジロキンパラ	コシジロキンパラ							
+6_70	db/日本野鳥大鑑6/70 コゲチャキンパラ.wav	6	70 コゲチャキンパラ	コゲチャキンパラ							
+6_71	db/日本野鳥大鑑6/71 シマキンパラ.wav	6	71 シマキンパラ	シマキンパラ							
 6_72	db/日本野鳥大鑑6/72 ギンハシ.wav	6	72 ギンハシ	ギンハシ							
-6_73	db/日本野鳥大鑑6/73 ヘキチョウ.wav	6	73 ヘキチョウ	ヘキチョウ	Q548262	White-headed Munia	ヘキチョウ	Q25341/Q194240/Q764420/Q749521/Q214462/Q852860/Q548262	スズメ目/スズメ亜目/スズメ小目/スズメ上科/カエデチョウ科/キンパラ属/ヘキチョウ	Passeriformes/Passeri/Passerida/Passeroidea/Estrildidae/Munia/White-headed Munia	order/suborder/parvorder/superfamily/family/genus/species
-6_74	db/日本野鳥大鑑6/74 ブンチョウ.wav	6	74 ブンチョウ	ブンチョウ	Q25185408	Lonchura oryzivora	ブンチョウ	Q25341/Q194240/Q764420/Q749521/Q214462/Q852860/Q25185408	スズメ目/スズメ亜目/スズメ小目/スズメ上科/カエデチョウ科/キンパラ属/ブンチョウ	Passeriformes/Passeri/Passerida/Passeroidea/Estrildidae/Munia/Lonchura oryzivora	order/suborder/parvorder/superfamily/family/genus/species
+6_73	db/日本野鳥大鑑6/73 ヘキチョウ.wav	6	73 ヘキチョウ	ヘキチョウ							
+6_74	db/日本野鳥大鑑6/74 ブンチョウ.wav	6	74 ブンチョウ	ブンチョウ							
 6_75	db/日本野鳥大鑑6/75 キンランチョウ.wav	6	75 キンランチョウ	キンランチョウ							
 6_76	db/日本野鳥大鑑6/76 ホオジロムクドリ.wav	6	76 ホオジロムクドリ	ホオジロムクドリ	Q27075597	Asian Pied Starling	ホオジロムクドリ	Q25341/Q185237/Q3770027/Q27075597	スズメ目/ムクドリ科/Gracupica/ホオジロムクドリ	Passeriformes/Sturnidae/Gracupica/Asian Pied Starling	order/family//species
 6_77	db/日本野鳥大鑑6/77 インドハッカ.wav	6	77 インドハッカ	インドハッカ	Q116667	Common Myna	インドハッカ	Q185237/Q136358/Q116667	ムクドリ科/Acridotheres/インドハッカ	Sturnidae/Acridotheres/Common Myna	family//species
 6_78	db/日本野鳥大鑑6/78 ハッカチョウ.wav	6	78 ハッカチョウ	ハッカチョウ	Q715819	Crested Myna	ハッカチョウ	Q185237/Q136358/Q715819	ムクドリ科/Acridotheres/ハッカチョウ	Sturnidae/Acridotheres/Crested Myna	family//species
 6_79	db/日本野鳥大鑑6/79 キュウカンチョウ.wav	6	79 キュウカンチョウ	キュウカンチョウ	Q337416	Common Hill Myna	キュウカンチョウ	Q25341/Q185237/Q259424/Q337416	スズメ目/ムクドリ科/Gracula/キュウカンチョウ	Passeriformes/Sturnidae/Gracula/Common Hill Myna	order/family//species
-6_80	db/日本野鳥大鑑6/80 ヤマムスメ.wav	6	80 ヤマムスメ	ヤマムスメ	Q94533	Taiwan Blue Magpie	ヤマムスメ	Q25341/Q194240/Q869223/Q15998878/Q25565/Q904303/Q94533	スズメ目/スズメ亜目/カラス小目/カラス上科/カラス科/Urocissa/ヤマムスメ	Passeriformes/Passeri/Corvida/Corvoidea/Corvidae/Urocissa/Taiwan Blue Magpie	order/suborder/infraorder/superfamily/family//species
+6_80	db/日本野鳥大鑑6/80 ヤマムスメ.wav	6	80 ヤマムスメ	ヤマムスメ							
