@@ -1,5 +1,6 @@
 /data_json/
 /data_json_**/
 /data_extract/log/
+/data_extract/data_json/
 /data_secret/
 /trush/
