@@ -63,10 +63,10 @@ prog2_maketsv.ipynbにて生成されたtsv．各カラム名は以下の通り�
 本コードで行った作業は以下の通り．
 1. DeePL翻訳により空白行を補填．（API無料使用可能枠を使い切ったため断念）
 2. 親子関係をグラフに格納後，視覚化．（グラフデータが重すぎたため断念）
-3. pathの階層名のみを取得し，data_extract/path_category.txtに一覧で出力し，目視で抜漏れ確認．（成功）
+3. pathを階層レベル名で表現した文字列をdata_extract/path_category.txtに出力．目視で抜漏れ確認．（成功）
 
 ## data_extract/path_category.txt
-上記の通り，prog3_translation.ipynbにより生成される，階層の名称まで概念の次元を上げて表記した場合のpath一覧．以下に示すようなフォーマット．
+上記の通り，prog3_translation.ipynbにより生成される，階層レベルの名称で表記した場合のpath一覧．以下に示すようなフォーマット．
 
 ```
 ...(略)....
@@ -79,15 +79,15 @@ Unknown/order/family/genus/species/subspecies
 ```
 
 ## data_external/BirdJPBookDB__data.tsv
-本プロジェクト主催より提供を受けたデータ．日本語を含む音声データタイトルとその他生態情報が以下のようなフォーマットで含まれている．
+日本野鳥大鑑に含まれるデータの一覧表．日本語を含む音声データタイトルとその他生態情報が以下のようなフォーマットで含まれている．
 ```
 audio_id	path	book_id	曲名	全長	分布	季節	環境
 1_01	db/日本野鳥大鑑1/01 アビ.wav	1	01 アビ	63㎝	全国	冬鳥	外洋、内湾
 ...(略)....
 ```
 
-## BirdResearchDB_label01_32k.tsv
-同じく本プロジェクト主催より提供を受けたデータ．英語の音声データのパス付タイトルと鳥名部分の抜き出し文字列．
+## data_external/BirdResearchDB_label01_32k.tsv
+BirdResearchDB（一部）から取得したデータの一覧表．英語の音声データのパス付タイトルと鳥名部分の抜き出し文字列．
 ```
 data01/mujisekka_160317_watarase_hirano.0004.wav	mujisekka
 data01/kumagera_110326_tomakomai_namba.0002.wav	kumagera
@@ -97,9 +97,8 @@ data01/kumagera_110326_tomakomai_namba.0002.wav	kumagera
 ## prog4_loading_sound_tsv.ipynb
 上記のdata_external/BirdJPBookDB__data.tsvとBirdResearchDB_label01_32k.tsvを読込み，加工したプログラム．
 行った作業は以下の通り．
-1. 上記の各音声データタイトルtsvについて，ひらがなの読み方データを付与
-2. 上記の各音声データタイトルtsvについて，ローマ字の読み方データを付与
-3. 両者tsvと，Wikidataオントロジを結合し，data_extract/voice_roma_path.tsvおよびdata_extract/voice_kana_path.tsvを生成
+1. BirdJPBookDB__data.tsvとBirdResearchDB_label01_32k.tsvについて，ひらがなの読み方データ，ローマ字の読み方データを付与
+2. BirdJPBookDB__data.tsvおよびBirdResearchDB_label01_32k.tsvとontorogy.tsvを結合し，data_extract/BirdJPBookDB__data_2.tsvおよびdata_extract/BirdResearchDB_label01_32k_2.tsvを生成
 
 ## data_extract/voice_roma_path.tsv
 以下のカラム名を持つ最終出力データ．romaはBirdResearchDB_label01_32k.tsv，列名は以下の通り．
