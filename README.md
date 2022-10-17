@@ -33,7 +33,7 @@ http://www.wikidata.org/entity/Q182761
 ```
 
 ## prog1_get_json.ipynb
-query.tsvの各行に格納されたURLの情報を取得し，jsonファイルに落とし込むプログラム．(正確にはsh1_makejson.shの作動)操作により得られるjsonファイルは中間生成物であるのでデータ容量の事情により既に削除済み．
+query.tsvの各行に格納されたURLの情報を取得し，jsonファイルに落とし込むプログラム．正確にはsh1_makejson.shの操作により得られるjsonファイルは中間生成物であるのでデータ容量の事情により既に削除済み．
 
 ## sh1_makejson.sh
 prog1_get_json.ipynbにより実行されるコマンド群．このプロセスにより生成されたデータはprog2_maketsv.ipynbにてさらに加工される．
