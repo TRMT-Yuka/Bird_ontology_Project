@@ -32,14 +32,14 @@ http://www.wikidata.org/entity/Q182761
 ...(略)....
 ```
 
-## prog1_get_json.ipynb
+## notebook.ipynb
 query.tsvの各行に格納されたURLの情報を取得し，各エンティティページのデータをjsonファイルに落とし込むプログラム．正確にはsh1_makejson.shの操作により得られるjsonファイルは中間生成物であるのでデータ容量の事情により既に削除済み．
 
 ## sh1_makejson.sh
-prog1_get_json.ipynbにより生成されるファイルである．このファイルにはjsonこのファイルを生成するためのコマンド群が書かれている．このプロセスにより生成されたデータはprog2_maketsv.ipynbにてさらに加工される．
+notebook.ipynbにより生成されるファイルである．このファイルにはjsonこのファイルを生成するためのコマンド群が書かれている．このプロセスにより生成されたデータはprog2_maketsv.ipynbにてさらに加工される．
 
 ## prog2_maketsv.ipynb
-prog1_get_json.ipynbによりjson形式でダウンロードしてきた各エンティティページのデータを加工する．また，系統樹的な遷移を表すパスを作成してオリジナルデータに付与し，data_extract/ontology.tsvに保存する．
+notebook.ipynbによりjson形式でダウンロードしてきた各エンティティページのデータを加工する．また，系統樹的な遷移を表すパスを作成してオリジナルデータに付与し，data_extract/ontology.tsvに保存する．
 
 ## data_extract/ontology.tsv
 prog2_maketsv.ipynbにて生成されたtsv．各カラム名は以下の通り．
@@ -58,25 +58,6 @@ prog2_maketsv.ipynbにて生成されたtsv．各カラム名は以下の通り�
 +  parent_taxon_name：一段階上位の階層の英語名称
 +  parent_taxon_ja_name：一段階上位の階層の日本語名称
 +  path：最上位階層（Q5113）から現在のIDに至るまでの順路情報
-
-## prog3_translation.ipynb
-本コードで行った作業は以下の通り．
-1. DeePL翻訳により空白行を補填．（API無料使用可能枠を使い切ったため断念）
-2. 親子関係をグラフに格納後，視覚化．（グラフデータが重すぎたため断念）
-3. pathを階層レベル名で表現した文字列をdata_extract/path_category.txtに出力．目視で抜漏れ確認．（成功）
-
-## data_extract/path_category.txt
-上記の通り，prog3_translation.ipynbにより生成される，階層レベルの名称で表記した場合のpath一覧．以下に示すようなフォーマット．
-
-```
-...(略)....
-Unknown/order
-Unknown/order/family
-Unknown/order/family/genus
-Unknown/order/family/genus/species
-Unknown/order/family/genus/species/subspecies
-...(略)....
-```
 
 ## data_external/BirdJPBookDB__data.tsv
 日本野鳥大鑑に含まれるデータの一覧表．日本語を含む音声データタイトルとその他生態情報が以下のようなフォーマットで含まれている．
