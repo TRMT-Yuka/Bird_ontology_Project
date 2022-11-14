@@ -35,7 +35,7 @@ http://www.wikidata.org/entity/Q182761
 ```
 
 ## notebook.ipynb
-本データの作成時に用いたjupyter notebook形式のコードである．コードにおける処理については，Program_Flowchart.drawioに記入されている．ここに，Program_Flowchart.drawioに記入のある
+本データの作成時に用いたjupyter notebook形式のコードである．コードにおける処理については，Program_Flowchart.drawioに記入されている．
 
 ## sh1_makejson.sh
 query.tsvの各行に格納されたURLの情報を取得し，各エンティティページのデータをjsonファイルに落とし込むプログラム．正確にはsh1_makejson.shの操作により得られるjsonファイルは中間生成物であるのでデータ容量の事情により既に削除済み．
