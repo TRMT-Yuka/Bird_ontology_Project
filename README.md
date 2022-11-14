@@ -42,9 +42,6 @@ query.tsvの各行に格納されたURLの情報を取得し，各エンティ�
 
 notebook.ipynbにより生成されるファイルである．このファイルにはjsonこのファイルを生成するためのコマンド群が書かれている．このプロセスにより生成されたデータはprog2_maketsv.ipynbにてさらに加工される．
 
-## prog2_maketsv.ipynb
-notebook.ipynbによりjson形式でダウンロードしてきた各エンティティページのデータを加工する．また，系統樹的な遷移を表すパスを作成してオリジナルデータに付与し，data_extract/ontology.tsvに保存する．
-
 ## data_extract/ontology.tsv
 prog2_maketsv.ipynbにて生成されたtsv．各カラム名は以下の通り．
 
