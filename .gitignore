@@ -5,3 +5,5 @@
 /data_secret/
 /trush/
 /kge/
+!/kge/yamls/
+!/kge/result/
