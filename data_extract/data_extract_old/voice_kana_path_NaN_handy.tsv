@@ -1,0 +1,22 @@
+	Unnamed: 0	audio_id	audio_file_path	book_id	title	bird_name	id	path	ja_path_name	en_path_name	path_taxon_rank_name
+0	40	1_41	db/日本野鳥大鑑1/41 オオヒシクイ.wav	1	41 オオヒシクイ	オオヒシクイ	Q26452	Q853058/Q21651/Q16124376/Q7556/Q620938/Q82562/Q183361/Q26452	キジカモ類/カモ目/Anatoidea/カモ科/ガン亜科/ガン族/マガン属/ヒシクイ	Galloanserae/Anseriformes/Anatoidea/Anatidae/Anserinae/Anserini/Anser/Bean Goose	superorder/order/superfamily/family/subfamily/tribe/genus/species'
+1	71	2_11	db/日本野鳥大鑑2/11 オガサワラノスリ.wav	2	11 オガサワラノスリ	オガサワラノスリ	Q1152577	Q25510/Q235152/Q1152577	タカ科/ノスリ属/ノスリ	Accipitridae/Buteo/Eastern Buzzard	family/genus/species
+2	95	2_35	db/日本野鳥大鑑2/35 リュウキュウヒクイナ.wav	2	35 リュウキュウヒクイナ	リュウキュウヒクイナ	Q1076585	Q835525/Q1076585	Porzana/ヒクイナ	Porzana/Ruddy-breasted Crake	genus/species
+3	154	3_20	db/日本野鳥大鑑3/20 ハジブトウミガラス.wav	3	20 ハジブトウミガラス	ハジブトウミガラス	Q728682	Q838599/Q728682	ウミガラス属/ハシブトウミガラス	Uria/Thick-billed Murre	genus/species
+4	176	3_42	db/日本野鳥大鑑3/42 ダイトウコノハズク.wav	3	42 ダイトウコノハズク	ダイトウコノハズク	Q1267153	Q5881279/Q25222/Q26012/Q832329/Q1267153	Strigimorphae/フクロウ目/フクロウ科/コノハズク属/オオコノハズク	Strigimorphae/Strigiformes/Strigidae/Otus/Sunda Scops Owl	superorder/order/family/genus/species
+5	178	3_44	db/日本野鳥大鑑3/44 リュウキュウオオコノハズク.wav	3	44 リュウキュウオオコノハズク	リュウキュウオオコノハズク	Q1267153	Q5881279/Q25222/Q26012/Q832329/Q1267153	Strigimorphae/フクロウ目/フクロウ科/コノハズク属/オオコノハズク	Strigimorphae/Strigiformes/Strigidae/Otus/Sunda Scops Owl	superorder/order/family/genus/species
+7	202	3_68	db/日本野鳥大鑑3/68 オーストンオオアカゲラ.wav	3	68 オーストンオオアカゲラ	オーストンオオアカゲラ	Q207290	Q5113/Q19168/Q2330918/Q11965316/Q25934/Q25439/Q561145/Q723059/Q207290	Q5113/新顎類/Neoaves/Dendrornithes/キツツキ目/キツツキ科/Picinae/Dendrocopos/オオアカゲラ	Neognathae/Neoaves/Dendrornithes/Piciformes/Picidae/Picinae/Dendrocopos/White-backed Woodpecker	Unknown/subclass/superorder/order/family/subfamily/genus/species
+9	217	4_12	db/日本野鳥大鑑4/12 ホオジロハクセキレイ.wav	4	12 ホオジロハクセキレイ	ホオジロハクセキレイ	Q2897097	Q25399/Q2897097	タイリクハクセキレイ/ハクセキレイ	White Wagtail/Motacilla alba lugens	species/subspecies
+13	231	4_26	db/日本野鳥大鑑4/26 シマアカモズ.wav	4	26 シマアカモズ	シマアカモズ	Q790616	Q25341/Q171052/Q754657/Q790616	スズメ目/モズ科/モズ属/アカモズ	Passeriformes/Laniidae/Lanius/Brown Shrike	order/family/genus/species
+14	236	4_31	db/日本野鳥大鑑4/31 モスケミソサザイ.wav	4	31 モスケミソサザイ	モスケミソサザイ	Q25740	Q25341/Q208304/Q3888717/Q25740	スズメ目/ミソサザイ科/Troglodytes/ミソサザイ	Passeriformes/Troglodytidae/Troglodytes/Eurasian Wren	order/family/genus/species
+18	287	5_09	db/日本野鳥大鑑5/09 コメボソムシクイ.wav	5	09 コメボソムシクイ	コメボソムシクイ	Q720497	Q194240/Q1929497/Q214627/Q720497	スズメ亜目/メボソムシクイ科/Phylloscopus/メボソムシクイ	Passeri/Phylloscopidae/Phylloscopus/Arctic Warbler	suborder/family/genus/species
+19	297	5_19	db/日本野鳥大鑑5/19 リュウキュウキビタキ.wav	5	19 リュウキュウキビタキ	リュウキュウキビタキ	Q1367236	Q388003/Q1367236	Ficedula/キビタキ	Ficedula/Narcissus Flycatcher	genus/species
+20	302	5_24	db/日本野鳥大鑑5/24 リュウキュウサンコウチョウ.wav	5	24 リュウキュウサンコウチョウ	リュウキュウサンコウチョウ	Q1074163	Q902469/Q1074163	アフリカ三光鳥/サンコウチョウ	paradise flycatcher/Japanese Paradise Flycatcher	genus/species
+21	304	5_26	db/日本野鳥大鑑5/26 シマエナガ.wav	5	26 シマエナガ	シマエナガ	Q170831	Q310850/Q170831	Aegithalos/エナガ	Aegithalos/Long-tailed Tit	genus/species
+23	313	5_35	db/日本野鳥大鑑5/35 イシガキシジュウカラ.wav	5	35 イシガキシジュウカラ	イシガキシジュウカラ	Q177798	Q719380/Q177798	カラ類/シジュウカラ	Parus/Japanese Tit	genus/species
+24	315	5_37	db/日本野鳥大鑑5/37 シロハラゴジュウカラ.wav	5	37 シロハラゴジュウカラ	シロハラゴジュウカラ	Q156767	Q25341/Q194240/Q205857/Q858577/Q156767	スズメ目/スズメ亜目/ゴジュウカラ科/ゴジュウカラ科/ゴジュウカラ	Passeriformes/Passeri/Sittidae/Sitta/Eurasian nuthatch	order/suborder/family/genus/species
+25	318	5_40	db/日本野鳥大鑑5/40 シチトウメジロ.wav	5	40 シチトウメジロ	シチトウメジロ	Q700028	Q371086/Q226900/Q700028	メジロ科/Zosterops/メジロ	Zosteropidae/Zosterops/Japanese White-eye	family/genus/species
+26	319	5_41	db/日本野鳥大鑑5/41 リュウキュウメジロ.wav	5	41 リュウキュウメジロ	リュウキュウメジロ	Q700028	Q371086/Q226900/Q700028	メジロ科/Zosterops/メジロ	Zosteropidae/Zosterops/Japanese White-eye	family/genus/species
+28	366	6_27	db/日本野鳥大鑑6/27 ミヤマカケス.wav	6	27 ミヤマカケス	ミヤマカケス	Q25354	Q311248/Q25354	カケス属/カケス	Garrulus/Eurasian Jay	genus/species
+32	388	6_49	db/日本野鳥大鑑6/49 ドバト.wav	6	49 ドバト	ドバト	Q42326	Q28078/Q10856/Q209239/Q42326	ハト目/ハト科/カワラバト属/カワラバト	Columbiformes/Columbidae/Columba/Rock Dove	order/family/genus/species
+35	411	6_72	db/日本野鳥大鑑6/72 ギンハシ.wav	6	72 ギンハシ	ギンハシ	Q27075729	Q25341/Q194240/Q764420/Q749521/Q214462/Q992589/Q27075729	スズメ目/スズメ亜目/スズメ小目/スズメ上科/カエデチョウ科/Euodice/ギンバシ	Passeriformes/Passeri/Passerida/Passeroidea/Estrildidae/Euodice/White-throated Munia	order/suborder/parvorder /superfamily/family/genus/species
