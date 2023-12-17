@@ -3,6 +3,7 @@
 /data_extract/log/
 /data_extract/data_json/
 /data_secret/
+/data_multi_vec/
 /trush/
 /kge/
 !/kge/yamls/
